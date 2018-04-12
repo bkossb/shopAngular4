@@ -1,0 +1,19 @@
+<h1></h1>
+<table class="table">
+  <thead>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor = "let order of order$ | async">
+    <td>{{order.shipping.name}}</td>
+    <td>{{order.datePlaced | date}}</td>
+    <td>
+      <a href="#">View</a>
+    </td>
+  </tr>
+  </tbody>
+</table>

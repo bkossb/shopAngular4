@@ -1,9 +1,0 @@
-<application>
-  <component name="FileTypeManager" version="17">
-    <extensionMap>
-      <mapping pattern="app-error-handler.ts" type="PLAIN_TEXT" />
-      <mapping pattern="app-error" type="TypeScript" />
-      <mapping pattern="filter-pipe" type="TypeScript" />
-    </extensionMap>
-  </component>
-</application>
